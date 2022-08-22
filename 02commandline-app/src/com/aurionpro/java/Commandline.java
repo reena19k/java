@@ -1,0 +1,14 @@
+package com.aurionpro.java;
+
+public class Commandline {
+	
+		public static void main(String args[]){  
+			System.out.println("c");  
+			System.out.println("sum");
+			System.out.println("22");
+			System.out.println("20.5");
+			System.out.println("100.45");
+			System.out.println("10==12");
+		} 
+		}
+

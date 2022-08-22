@@ -1,0 +1,27 @@
+package com.aurionpro.test;
+
+import java.util.Scanner;
+
+public class wordcount {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter any digit number");
+		int n = sc.nextInt();
+		System.out.println("enter your camporing number");
+		int userd = sc.nextInt();
+		int count=0,lastdig=0;
+		while(n>0)
+		{
+			lastdig=n%10;
+			if(lastdig==userd)
+			{
+				count++;
+			}n=n/10;
+			
+		}
+		System.out.println(count);
+				
+	}
+
+}
